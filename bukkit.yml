@@ -1,0 +1,46 @@
+# This is the main configuration file for Bukkit.
+# As you can see, there's actually not that much to configure without any plugins.
+# For a reference for any variable inside this file, check out the Bukkit Wiki at
+# https://www.spigotmc.org/go/bukkit-yml
+settings:
+  use-map-color-cache: true
+  minimum-api: none
+  allow-end: false
+  warn-on-overload: false
+  permissions-file: permissions.yml
+  update-folder: update
+  plugin-profiling: false
+  connection-throttle: 4000
+  query-plugins: false
+  deprecated-verbose: default
+  shutdown-message: Server closed
+spawn-limits:
+  axolotls: 5
+  water-underground-creature: 5
+  water-ambient: 2
+  monsters: 5
+  animals: 5
+  water-animals: 2
+  ambient: 3
+chunk-gc:
+  period-in-ticks: 300
+  load-threshold: 300
+ticks-per:
+  axolotl-spawns: 1
+  water-underground-creature-spawns: 1
+  water-spawns: 40
+  water-ambient-spawns: 40
+  ambient-spawns: 40
+  animal-spawns: 50
+  monster-spawns: 1
+  autosave: 6000
+aliases: now-in-commands.yml
+worlds:
+  world:
+    generator: VoidGen
+  terra:
+    generator: Terra:DEFAULT
+  Plot:
+    generator: PlotSquared
+  plot:
+    generator: PlotSquared
